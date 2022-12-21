@@ -1,62 +1,59 @@
-BACKEND TECHNOLOGIES ARE :
-node.js
-python
-golang
-PHP
-Ruby
+# Intro of API
 
-In backend we have a servers understands node.js 
+API (application progeamming interface) in Node.js
 
-Two things are there in backend:
+> Browser is sending a request to the serveris calleds as 
 
-1.Servers :- computers without a screen or without GUI which servers something.
+> Server is sendeng a respond to the browser is called as 
 
-2.Database :- data and base the place where data resides are called as database. ex: chat , password  or etc
+## Rest API
 
-Servers are use to serves a data from database.
+- In Javascript we have a key and value to represent it in the format called objects.
+- Javascript object notation in short we called as JSON.
+- Rest API uses JSON to transfer data between client and the server or sometimes between servers.
 
-Browser [google.com](https://www.google.com)------> Servers------> Database
+### Three  basic features of Rest API are :-
+- Simple.
+- Documentation should be good.
+- Standard for error messages.
 
-They all connects to each other through API(via internet)
-
-Language of the Internet is called API(Application Programming Interface).
-
-API is the set of rules.
-
-These are all the jargans of BackEnd.
-
-Programming is a set rules that we create to tell a computer to do something.
-
-C,C++,Java,Python,Javascript etc.
-
-In Jvascript we have a event loop it create a quee its divides a solution into a small small thing that 0-1 1-5 5-10 as more.....
-
-Javascript is single threded but is uses something called event loop that makes it possible to haddle the 1 millions user at a time.
-
-Javascrip is easy to understand and v.good developers community(created packages/library) and less to read code ,it does not uses al part of the system it uses event loop to bring all the functionality that is called as node.js
-
-Around  60% of caompanies are using node.js why other 40% are not using because they are trying to solve some other problems i.e
-
-Node.js is require to handle traffic bit not to handle a Big rows data or we need some heavy calculation which requires very low level codding then you require c,c++,java,Ruby etc they are very close to 01010 they are low level language to make it faster.
-
-How to install node.js
-
-1. Node version manager install
-
-2. You will find "nvm" on windows,mac,linux.
-
-3. nvm -v
-
-4. step by step follow the instructions on the website.
-
-5. If we want a latest nvm install vA.B.C
-
-6. We have two cmd nvm instal latest and nvm use vA.B.C
+Rest api is accepted by every software companies now its become a standard of the internet.
 
 
+### principals of Rest API are :-
+- Stateless
+- Clienr server
+- Uniform interface
+- Cachable
+- Layered
+- .Code on demand
 
+## REST (Representational State Transfer)
 
+### API standard
 
+- Diffentiate between diffrent API.
+- Standard for each of them.
+- Variable Data.
 
+All the Api are made of four types are called as 
+# CRUD
+## C -> CREATE -> POST
+## R -> READ -> GET
+## U -> UPDATE -> PUT/PATCH
+## D -> DELETE -> DELETE
 
+### Example :
+- amazon.com/adidassocks Here in this URL we are trying to READ a data or to GET a data.  GET -------> URL
+  >  Here in this URL amazon.com/product?variable1=value&variable2=value
+  
+  > ?var1=value&var2=value  These are called query params.
+
+  > POST,PUT,DELETE  all are in the body which are hidden.
+
+  > Website caleed [JSONplaceholder](https://jsonplaceholder.typicode.com/) there are diffrent types of API call.
+
+  > We can use Postman
+
+  > META data are the data which can be understand by the server in the form of JSON format,UTF-8,EN.
 
