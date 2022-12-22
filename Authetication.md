@@ -49,4 +49,35 @@
  - Have Validation in email and password.
  - Encryt the password by using a library called bcrypt.
  - If there is an error send them alert if not then redirect to the next page.
-   
+
+ # INSTALLATION FOR THE AUTHENTICATION PROJECT :-
+
+ ## INASTALL EXPESS 
+
+- version 4.18.2
+Fast, unopinionated, minimalist web framework
+
+## INSTALL BCRYPT 
+
+- version 5.1.0
+A bcrypt library for NodeJS.
+
+## Package.json is the Meta data for the application.
+Every Node.js application uses package.json which tells node.js about our application.
+
+- npm install
+- To Create an Express server we have to write this in our scripting file:-
+  > const express=require("express");
+  
+  > const app = express();
+
+- Now create a PORT
+  > const PORT = 1337;
+
+  > app.listen(PORT,() =>{
+  console.log("The app is running at port=",PORT)
+}); ----call back function to see everything is running smothly.
+
+  We have our Express server built.
+  
+ 
