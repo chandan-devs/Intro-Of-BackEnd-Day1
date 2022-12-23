@@ -52,7 +52,7 @@
 
  # INSTALLATION FOR THE AUTHENTICATION PROJECT :-
 
- ## Authentication page we need (index.html,Signup.html,SignIn.html)
+ ## For Authentication page I built (index.html,Signup.html,SignIn.html)
 
  ## INASTALL EXPESS 
 
